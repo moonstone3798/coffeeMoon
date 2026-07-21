@@ -1,0 +1,15 @@
+.navbar a {
+  text-decoration: none;
+  color: var(--text-nav);
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.navbar li {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  font-size: 1.2rem;
+}
