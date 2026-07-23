@@ -1,0 +1,41 @@
+/* [project]/src/app/globals.css [app-client] (css) */
+:root {
+  --text: #f5e6d0;
+  --text-h: #efe3d3;
+  --text-nav: #efe3d3;
+  --bg: #1a0800;
+  --bg-card: #0a0704;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100%;
+  color: var(--text);
+  margin: 0;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+h1 {
+  font-family: Cormorant, serif;
+  font-size: clamp(3rem, 3vw, 5rem);
+}
+
+p {
+  font-size: clamp(1rem, 1.35vw, 1.8rem);
+}
+
+h2 {
+  text-align: center;
+  color: var(--text-h);
+  font-size: clamp(2rem, 1.6vw, 3rem);
+}
+
+/*# sourceMappingURL=src_app_globals_162hn9o.css.map*/

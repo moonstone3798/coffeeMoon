@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///Users/moonstone/Proyectos/coffeeShop/frontend/src/app/page.tsx"],"sourcesContent":["import AboutSection from '@/features/about/components/AboutSection';\nimport ContactSection from '@/features/contact/components/ContactSection';\nimport dynamic from 'next/dynamic';\n\nconst HeroSection = dynamic(\n  () => import('@/features/hero/components/HeroSection'),\n);\n\nconst ProductSection = dynamic(\n  () => import('@/features/products/components/ProductSection'),\n);\n\nexport default function Home() {\n  return (\n    <main>\n      <HeroSection />\n      <AboutSection />\n      <ProductSection />\n      <ContactSection />\n    </main>\n  );\n}\n"],"names":["HeroSection","ProductSection","Home","AboutSection","ContactSection"],"mappings":";;;;;;;;;;;;;;;AAEA;;;;;;;AAEA,MAAMA,cAAc,IAAA,0KAAO,EACzB;;;;;;;;;;;AAGF,MAAMC,iBAAiB,IAAA,0KAAO,EAC5B;;;;;;;;;;;AAGa,SAASC;IACtB,qBACE,8OAAC;;0BACC,8OAACF;;;;;0BACD,8OAACG;;;;;0BACD,8OAACF;;;;;0BACD,8OAACG;;;;;;;;;;;AAGP"}}]
+}

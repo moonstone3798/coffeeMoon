@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/moonstone/Proyectos/coffeeShop/frontend/src/app/globals.css"],"sourcesContent":[":root {\n  --text: #f5e6d0;\n  --text-h: #efe3d3;\n  --text-nav: #efe3d3;\n  --bg: #1a0800;\n  --bg-card: #0a0704;\n}\n\n* {\n  box-sizing: border-box;\n  scroll-behavior: smooth;\n}\n\nhtml,\nbody,\n#root {\n  margin: 0;\n  width: 100%;\n  min-height: 100%;\n  color: var(--text);\n}\nbody {\n  background-color: var(--bg);\n}\nh1 {\n  font-family: 'Cormorant', serif;\n  font-size: clamp(3rem, 3vw, 5rem);\n}\np {\n  font-size: clamp(1rem, 1.35vw, 1.8rem);\n}\nh2 {\n  font-size: clamp(2rem, 1.6vw, 3rem);\n  text-align: center;\n  color: var(--text-h);\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;AAQA;;;;;AAKA;;;;;;;AAQA;;;;AAGA;;;;;AAIA;;;;AAGA"}}]
+}

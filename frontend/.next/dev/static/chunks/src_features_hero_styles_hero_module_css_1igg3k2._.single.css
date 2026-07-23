@@ -1,0 +1,56 @@
+/* [project]/src/features/hero/styles/hero.module.css [app-client] (css) */
+.hero-module__C1_MzG__hero {
+  align-items: center;
+  height: 75vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-module__C1_MzG__video {
+  object-fit: cover;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+}
+
+.hero-module__C1_MzG__hero:before {
+  content: "";
+  z-index: 1;
+  background: radial-gradient(circle, #0000 50%, #1908008c 100%), linear-gradient(#19080040, #19080073);
+  position: absolute;
+  inset: 0;
+}
+
+.hero-module__C1_MzG__hero:after {
+  content: "";
+  background: linear-gradient(#0000, #1a0800);
+  width: 100%;
+  height: 180px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.hero-module__C1_MzG__heroName {
+  z-index: 2;
+  align-items: center;
+  gap: .5rem;
+  margin-left: 5rem;
+  display: flex;
+  position: absolute;
+}
+
+@media (max-width: 768px) {
+  .hero-module__C1_MzG__heroName {
+    margin-left: 0;
+  }
+
+  .hero-module__C1_MzG__hero {
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=src_features_hero_styles_hero_module_css_1igg3k2._.single.css.map*/

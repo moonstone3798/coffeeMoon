@@ -1,0 +1,12 @@
+/* [project]/src/shared/components/burguer/burguer.module.css [app-client] (css) */
+.burguer-module__fNU8Hq__burguer-menu {
+  padding: 1.25rem 1.4rem;
+}
+
+@media (min-width: 769px) {
+  .burguer-module__fNU8Hq__burguer-menu {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=src_shared_components_burguer_burguer_module_css_1igg3k2._.single.css.map*/

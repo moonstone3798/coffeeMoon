@@ -1,0 +1,112 @@
+/* [project]/src/app/globals.css [app-client] (css) */
+:root {
+  --text: #f5e6d0;
+  --text-h: #efe3d3;
+  --text-nav: #efe3d3;
+  --bg: #1a0800;
+  --bg-card: #0a0704;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100%;
+  color: var(--text);
+  margin: 0;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+h1 {
+  font-family: var(--font-cormorant);
+  font-size: clamp(3rem, 3vw, 5rem);
+}
+
+p {
+  font-size: clamp(1rem, 1.35vw, 1.8rem);
+}
+
+h2 {
+  text-align: center;
+  color: var(--text-h);
+  font-size: clamp(2rem, 1.6vw, 3rem);
+}
+
+/* [project]/src/shared/components/navbar/navbar.module.css [app-client] (css) */
+.navbar-module__3y_nSq__navbar a {
+  color: var(--text-nav);
+  text-decoration: none;
+}
+
+.navbar-module__3y_nSq__navbar ul {
+  gap: 1rem;
+  list-style: none;
+  display: flex;
+}
+
+.navbar-module__3y_nSq__navbar li {
+  border-radius: .5rem;
+  padding: .25rem 1.4rem;
+  font-size: clamp(.8rem, 1vw, 1.8rem);
+  animation: .6s ease-in both navbar-module__3y_nSq__navItemEnter;
+}
+
+.navbar-module__3y_nSq__navbar li:nth-child(2) {
+  animation-delay: .4s;
+}
+
+.navbar-module__3y_nSq__navbar li:nth-child(3) {
+  animation-delay: .48s;
+}
+
+.navbar-module__3y_nSq__navbar li:nth-child(4) {
+  animation-delay: .56s;
+}
+
+@keyframes navbar-module__3y_nSq__navItemEnter {
+  from {
+    opacity: 0;
+    transform: translateX(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-module__3y_nSq__navbar {
+    display: none;
+  }
+}
+
+/* [project]/src/shared/components/header/header.module.css [app-client] (css) */
+.header-module__dl0aBG__header {
+  z-index: 100;
+  -webkit-backdrop-filter: sepia(15%);
+  backdrop-filter: sepia(15%);
+  background: #19080005;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+/* [project]/src/shared/components/burguer/burguer.module.css [app-client] (css) */
+.burguer-module__fNU8Hq__burguer-menu {
+  padding: 1.25rem 1.4rem;
+}
+
+@media (min-width: 769px) {
+  .burguer-module__fNU8Hq__burguer-menu {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=src_01f3cq1._.css.map*/

@@ -1,0 +1,16 @@
+/* [project]/src/features/about/styles/about.module.css [app-client] (css) */
+.about-module__xqGbmW__about {
+  color: var(--text-nav);
+  background-color: #1a0800;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 66vh;
+  display: flex;
+}
+
+.about-module__xqGbmW__about p {
+  width: 70%;
+}
+
+/*# sourceMappingURL=src_features_about_styles_about_module_css_1igg3k2._.single.css.map*/

@@ -1,0 +1,266 @@
+/* [project]/src/app/globals.css [app-client] (css) */
+:root {
+  --text: #f5e6d0;
+  --text-h: #efe3d3;
+  --text-nav: #efe3d3;
+  --bg: #1a0800;
+  --bg-card: #0a0704;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100%;
+  color: var(--text);
+  margin: 0;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+h1 {
+  font-family: var(--font-cormorant);
+  font-size: clamp(3rem, 3vw, 5rem);
+}
+
+p {
+  font-size: clamp(1rem, 1.35vw, 1.8rem);
+}
+
+h2 {
+  text-align: center;
+  color: var(--text-h);
+  font-size: clamp(2rem, 1.6vw, 3rem);
+}
+
+/* [project]/src/shared/components/navbar/navbar.module.css [app-client] (css) */
+.navbar-module__3y_nSq__navbar a {
+  color: var(--text-nav);
+  text-decoration: none;
+}
+
+.navbar-module__3y_nSq__navbar ul {
+  gap: 1rem;
+  list-style: none;
+  display: flex;
+}
+
+.navbar-module__3y_nSq__navbar li {
+  border-radius: .5rem;
+  padding: .25rem 1.4rem;
+  font-size: clamp(.8rem, 1vw, 1.8rem);
+  animation: .6s ease-in both navbar-module__3y_nSq__navItemEnter;
+}
+
+.navbar-module__3y_nSq__navbar li:nth-child(2) {
+  animation-delay: .4s;
+}
+
+.navbar-module__3y_nSq__navbar li:nth-child(3) {
+  animation-delay: .48s;
+}
+
+.navbar-module__3y_nSq__navbar li:nth-child(4) {
+  animation-delay: .56s;
+}
+
+@keyframes navbar-module__3y_nSq__navItemEnter {
+  from {
+    opacity: 0;
+    transform: translateX(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-module__3y_nSq__navbar {
+    display: none;
+  }
+}
+
+/* [project]/src/shared/components/header/header.module.css [app-client] (css) */
+.header-module__dl0aBG__header {
+  z-index: 100;
+  -webkit-backdrop-filter: sepia(15%);
+  backdrop-filter: sepia(15%);
+  background: #19080005;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+/* [project]/src/shared/components/burguer/burguer.module.css [app-client] (css) */
+.burguer-module__fNU8Hq__burguer-menu {
+  padding: 1.25rem 1.4rem;
+}
+
+@media (min-width: 769px) {
+  .burguer-module__fNU8Hq__burguer-menu {
+    display: none;
+  }
+}
+
+/* [next]/internal/font/google/cormorant_garamond_c93cfe88.module.css [app-client] (css) */
+@font-face {
+  font-family: Cormorant Garamond;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../media/9cc5c0547f229dea-s.00y8kskkn0hyx.woff2") format("woff2");
+  unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: Cormorant Garamond;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../media/b0947914c9718a1e-s.1xjn85gt7t6qs.woff2") format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Cormorant Garamond;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../media/d0b60be57f16ee32-s.1xtu7gopqv2u0.woff2") format("woff2");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+  font-family: Cormorant Garamond;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../media/1f9e983605289f29-s.3aak_kra40y8r.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Cormorant Garamond;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../media/01e4147cff8141ee-s.p.3huc2loe0ie8a.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Cormorant Garamond;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../media/9cc5c0547f229dea-s.00y8kskkn0hyx.woff2") format("woff2");
+  unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: Cormorant Garamond;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../media/b0947914c9718a1e-s.1xjn85gt7t6qs.woff2") format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Cormorant Garamond;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../media/d0b60be57f16ee32-s.1xtu7gopqv2u0.woff2") format("woff2");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+  font-family: Cormorant Garamond;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../media/1f9e983605289f29-s.3aak_kra40y8r.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Cormorant Garamond;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../media/01e4147cff8141ee-s.p.3huc2loe0ie8a.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Cormorant Garamond;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../media/9cc5c0547f229dea-s.00y8kskkn0hyx.woff2") format("woff2");
+  unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: Cormorant Garamond;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../media/b0947914c9718a1e-s.1xjn85gt7t6qs.woff2") format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Cormorant Garamond;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../media/d0b60be57f16ee32-s.1xtu7gopqv2u0.woff2") format("woff2");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+  font-family: Cormorant Garamond;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../media/1f9e983605289f29-s.3aak_kra40y8r.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Cormorant Garamond;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../media/01e4147cff8141ee-s.p.3huc2loe0ie8a.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Cormorant Garamond Fallback;
+  src: local(Times New Roman);
+  ascent-override: 95.27%;
+  descent-override: 29.59%;
+  line-gap-override: 0.0%;
+  size-adjust: 96.98%;
+}
+
+.cormorant_garamond_c93cfe88-module__z_CCpa__className {
+  font-family: Cormorant Garamond, Cormorant Garamond Fallback;
+  font-style: normal;
+}
+
+.cormorant_garamond_c93cfe88-module__z_CCpa__variable {
+  --font-cormorant: "Cormorant Garamond", "Cormorant Garamond Fallback";
+}
+
+/*# sourceMappingURL=%5Broot-of-the-server%5D__0w73j_u._.css.map*/

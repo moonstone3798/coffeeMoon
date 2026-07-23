@@ -1,11 +1,9 @@
 import styles from './navbar.module.css';
-const routes = [
-  { name: 'Inicio', href: '#' },
-  { name: 'Menú', href: '#products' },
-  { name: 'Nosotros', href: '#about' },
-  { name: 'Contacto', href: '#contact' },
-];
-const Navbar = () => {
+interface NavbarProps {
+  routes: { name: string; href: string }[];
+}
+
+const Navbar = ({ routes }: NavbarProps) => {
   return (
     <nav className={styles.navbar}>
       <ul>

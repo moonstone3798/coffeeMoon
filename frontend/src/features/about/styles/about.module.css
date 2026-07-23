@@ -1,0 +1,12 @@
+.about {
+  background-color: #1a0800;
+  color: var(--text-nav);
+  height: 66vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about p {
+  width: 70%;
+}

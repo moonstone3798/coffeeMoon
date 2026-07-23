@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/features/hero/styles/hero.module.css"],"sourcesContent":[".hero {\n  height: 75vh;\n  position: relative;\n  display: flex;\n  align-items: center;\n  overflow: hidden;\n}\n\n.video {\n  position: absolute;\n  inset: 0;\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  z-index: 0;\n}\n.hero::before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  background:\n    radial-gradient(\n      circle at center,\n      transparent 50%,\n      rgba(25, 8, 0, 0.55) 100%\n    ),\n    linear-gradient(to bottom, rgba(25, 8, 0, 0.25), rgba(25, 8, 0, 0.45));\n  z-index: 1;\n}\n.hero::after {\n  content: '';\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 180px;\n  background: linear-gradient(to bottom, transparent, #1a0800);\n}\n.heroName {\n  z-index: 2;\n  position: absolute;\n  margin-left: 5rem;\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n}\n@media (max-width: 768px) {\n  .heroName {\n    margin-left: 0;\n  }\n  .hero {\n    justify-content: center;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;AAQA;;;;;;;;;AAQA;;;;;;;;AAaA;;;;;;;;;;AASA;;;;;;;;;AAQA;EACE;;;;EAGA"}}]
+}

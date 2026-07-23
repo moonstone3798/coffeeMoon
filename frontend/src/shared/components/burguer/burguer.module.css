@@ -1,0 +1,8 @@
+.burguer-menu {
+  padding: 1.25rem 1.4rem;
+}
+@media (min-width: 769px) {
+  .burguer-menu {
+    display: none;
+  }
+}

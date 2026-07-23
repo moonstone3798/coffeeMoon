@@ -1,0 +1,20 @@
+.contactSection form {
+  background-color: var(--bg-card);
+  width: 70%;
+  border-radius: 20px;
+  padding: clamp(1.5rem, 3.5vw, 5.5rem);
+
+  /* 2rem 4rem; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contactSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contactSection button {
+  margin-top: 1.5rem;
+}
