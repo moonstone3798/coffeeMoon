@@ -4,7 +4,7 @@ import CardComponent from "@/shared/components/card/CardComponent"
 const ProductCard = ({ product }: { product: Product }) => {
     return (
         <CardComponent
-            imageUrl={product.imageUrl}
+            imageUrl={`/images/${product.imageUrl}`}
             title={product.name}
             description={product.description}
             price={product.price}

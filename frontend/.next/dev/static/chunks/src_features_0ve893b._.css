@@ -95,4 +95,11 @@
   min-height: 100vh;
 }
 
+.product-module__WimlHq__gridProducts {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 3rem;
+  display: grid;
+}
+
 /*# sourceMappingURL=src_features_0ve893b._.css.map*/

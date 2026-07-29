@@ -2,12 +2,15 @@ import { Card, Image, Text, Group } from '@mantine/core';
 
 const CardComponent = ({ imageUrl, title, description, price }: { imageUrl: string; title: string; description: string; price: number }) => {
   return (
-    <Card shadow="sm" padding="lg" withBorder>
+    <Card shadow="sm" padding="lg" style={{
+      backgroundColor: '#f5f5f5',
+    }}  >
       <Card.Section>
         <Image
           src={imageUrl}
-          height={160}
+          height={240}
           alt={title}
+          fit='cover'
         />
       </Card.Section>
 

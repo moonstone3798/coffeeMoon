@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/features/products/styles/product.module.css"],"sourcesContent":[".products {\n  min-height: 100vh;\n}\n"],"names":[],"mappings":"AAAA"}}]
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/features/products/styles/product.module.css"],"sourcesContent":[".products {\n  min-height: 100vh;\n}\n.gridProducts {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n  gap: 2rem;\n  padding: 3rem;\n}"],"names":[],"mappings":"AAAA;;;;AAGA"}}]
 }

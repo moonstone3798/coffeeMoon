@@ -1,0 +1,17 @@
+INSERT INTO products (name, description, price, imageUrl, category_id ) VALUES 
+('café expreso', 'Un café fuerte y concentrado, perfecto para empezar el día.', 500 , 'expreso.webp', 2),
+('café americano', 'Un café más ligero, perfecto para quienes prefieren un sabor menos intenso.', 550 , 'americano.webp', 2),
+('café latte', 'Un café suave con leche, ideal para disfrutar en cualquier momento.', 600 , 'latte.webp', 2),
+('bagel de salmón', 'Un bagel relleno de salmón ahumado, queso crema y alcaparras.', 450 , 'bagel_de_salmon.webp', 4),
+('limonada', 'Una bebida refrescante de limón, perfecta para el verano.', 300 , 'limonada.webp', 1),
+('jugo de naranja exprimido', 'Un jugo fresco de naranja, lleno de vitamina C.', 300 , 'jugo_de_naranja.webp', 1),
+('medialuna con jamón y queso', 'Una medialuna rellena de jamón y queso, ideal para el desayuno.', 350 , 'medialuna_j_y_q.webp', 3),
+('medialuna de manteca', 'Una medialuna clásica hecha con manteca.', 300 , 'medialuna_manteca.webp', 3),
+('cappuccino', 'Un café con leche espumosa y un toque de cacao.', 600 , 'cappuccino.webp', 2),
+('café mocha', 'Un café con chocolate y leche, delicioso y reconfortante.', 650 , 'mocha.webp', 2),
+('té verde', 'Una bebida saludable y refrescante, rica en antioxidantes.', 400 , 'te_verde.webp', 2),
+('té negro', 'Un té clásico con un sabor robusto y reconfortante.', 400 , 'te_negro.webp', 2),
+('roll de canela', 'Un delicioso roll de canela, perfecto para acompañar tu café.', 300 , 'roll_de_canela.webp', 3),
+('tostado de jamón y queso', 'Un clásico tostado con jamón y queso, ideal para el desayuno.', 350 , 'tostados.webp', 4),
+('lemon pie', 'Un postre clásico con un relleno de limón y una base de masa crujiente.', 400 , 'lemon_pie.webp', 3),
+('medialuna de grasa', 'Una medialuna tradicional hecha con grasa.', 300 , 'medialuna_de_grasa.webp', 3);
